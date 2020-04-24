@@ -1,0 +1,32 @@
+[build] 
+  functions = "src/functions/"
+  publish = "public"
+
+[dev]
+  command = "gatsby develop"
+  port = 3000
+
+[[redirects]]
+  from = "/admin/*"
+  status= 200
+  conditions = {Role=["admin"]}
+  force=true
+
+[[redirects]]
+  from = "/admin/*"
+  to = "/login"
+  status= 401
+  force=true
+
+[[redirects]]
+  from = "/post"
+  to = "/.netlify/functions/post"
+  status = 200
+
+[[redirects]]
+  from = "/vuistje/*"
+  to = "/show?id=:splat"
+  status = 302
+
+[[plugins]]
+  package = "netlify-plugin-gatsby-cache"

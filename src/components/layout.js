@@ -1,0 +1,34 @@
+/**
+ * Layout component that queries for data
+ * with Gatsby's useStaticQuery component
+ *
+ * See: https://www.gatsbyjs.org/docs/use-static-query/
+ */
+
+import React from "react"
+import PropTypes from "prop-types"
+
+import Header from "./header"
+
+import style from "./layout.module.css"
+
+const Layout = ({ children }) => {
+  return (
+    <>
+      <Header />
+      <main className={style.grid}>{children}</main>
+      <p className={style.footer}>
+        <a href="https://devine.be?ref=vuistje">
+          Devine - Development 4 - 2020
+        </a>
+        <a href="https://vlolly.net/">Based on Vlolly.net</a>
+      </p>
+    </>
+  )
+}
+
+Layout.propTypes = {
+  children: PropTypes.node.isRequired,
+}
+
+export default Layout
