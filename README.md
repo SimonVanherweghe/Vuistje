@@ -1,15 +1,16 @@
 # Vuistje
 
-Gebaseerd op
-https://vlolly.net/ maar met contentful en gatsby op Netlify
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fcc5443a-67f0-4d15-8707-7767d00f6006/deploy-status)](https://app.netlify.com/sites/vuistje/deploys)
 
+Gebaseerd op
+https://vlolly.net/ maar met Contentful en Gatsby op Netlify
+
+## Resources
 Er moet een dummy asset staan...
 https://github.com/gatsbyjs/gatsby/issues/15344#issuecomment-508242874
 
 dynamic static
 https://www.gatsbyjs.org/blog/2018-12-17-turning-the-static-dynamic/
-
-https://vlolly.net/lolly/7y-n2mQjc
 
 copy button
 https://github.com/gatsbyjs/gatsby/pull/15834/commits/d9905de374be1853c438a1d9dae74b47feb9e603
