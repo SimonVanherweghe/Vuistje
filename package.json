@@ -6,7 +6,7 @@
   "author": "Simon Vanherweghe <simon.vanherweghe@howest.be>",
   "dependencies": {
     "contentful-management": "^5.15.0",
-    "gatsby": "^2.20.31",
+    "gatsby": "^4.25.7",
     "gatsby-image": "^2.2.44",
     "gatsby-plugin-manifest": "^2.2.48",
     "gatsby-plugin-offline": "^3.0.41",
